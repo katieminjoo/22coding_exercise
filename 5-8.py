@@ -1,5 +1,5 @@
 # DFS 예제
-# stack
+# stack, recursive
 
 def dfs(graph,v,visited):
     #현재 노드 방문 처리

@@ -1,4 +1,5 @@
 # 계수정렬 Count Sort
+# 공간복잡도 O(N+K)
 
 # 모든 원소의 값이 0보다 크거나 같을때
 array =[7,5,9,0,3,1,6,2,9,1,4,8,0,5,2]
@@ -12,7 +13,8 @@ for i in range(len(array)):
 
 print(count)
 
+# i(인덱스번호)를 출력
 for i in range(len(count)):
-    # i를 출력
+    # j번 만큼
     for j in range(count[i]):
         print(i, end = ' ')

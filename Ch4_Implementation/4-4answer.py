@@ -12,6 +12,8 @@ for i in range(n):
     array.append(list(map(int, input(i).split())))
 
 # 순서대로 북,동,남,서 방향 정의 (맵에서의 x,y는 다르다)
+
+# 북동남서
 dx = [-1,0,1,0]
 dy = [0,1,0,-1]
 

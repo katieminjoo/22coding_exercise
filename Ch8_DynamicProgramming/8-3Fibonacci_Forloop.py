@@ -1,10 +1,12 @@
-d = [0] * 100
+# BottomUp
 
-d[0] = 1
-d[1] = 1
+f = [0] * 100
 
-n = 99
-for i in range(3, n+1):
-    d[i] = d[i-1] + d[i-2]
+f[1] = 1
+f[2] = 1
+n = 33
 
-print(d[n])
+for i in range(3,34):
+    f[i] = f[i-1] + f[i-2]
+
+print(f[n])

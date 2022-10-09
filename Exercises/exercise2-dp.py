@@ -17,7 +17,6 @@ c = [4,7,1,5,3]
 
 def arithmetic(array:list[int]) -> int :
     coins = list(range(0,max(array)-min(array)+1))
-    # print(coins)
     targets = array
     dp = [float('inf')] * (max(array)+1)
     dp[0] = 0

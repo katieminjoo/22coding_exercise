@@ -8,6 +8,7 @@ for x in data:
     array[x] += 1
 
 result = 0
+
 # 1부터 m까지의 각 무게에 대하여 처리
 for i in range(1, m+1):
     n -= array[i]

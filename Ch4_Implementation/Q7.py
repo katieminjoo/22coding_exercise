@@ -3,15 +3,11 @@
 
 n = input()
 idx = int(len(n)/2)
-print(n[:idx])
-print(list(n[:idx]))
-print(list(map(int,(n[:idx]).split())))
 
 a = sum(list(map(int,list(n[:idx]))))
 b = sum(list(map(int,list(n[idx:]))))
-print(a,b)
 
-if sum(list(map(int,(n[:idx]).split()))) == sum(list(map(int,(n[idx:]).split()))):
+if a == b:
     print('lucky')
 else:
     print('ready')
